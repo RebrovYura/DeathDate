@@ -1,0 +1,22 @@
+.header {
+    position: relative;
+    &__title {
+        font-size: var(--fsize-title);
+        font-weight: var(--font-bold);
+        text-align: left;
+
+        margin-bottom: 20px;
+    }
+
+    &__subtitle {
+        margin-bottom: 25px;
+    }
+
+    &::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 1px;
+        background-color: #DEDEDE;
+    }
+}

@@ -1,0 +1,52 @@
+.people {
+    margin: 50px 0 0;
+    &__inner-top {
+        display: flex;
+    }
+
+    &__image {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin-right: 28px;
+        position: relative;
+        img {
+            grid-column: 1;
+            grid-row: 1;
+            width: 88px;
+        }
+        :nth-child(2) {
+            grid-column: 2;
+            margin-left: -30px;
+        }
+
+        :nth-child(3) {
+            grid-column: 3;
+            margin-left: -30px;
+        }
+    }
+
+    &__text {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        // margin-top: 32px;
+
+        :nth-child(1) {
+            // margin-top: 32px;
+            color: #9D9D9D;
+        }
+
+        :nth-child(2) {
+            color: #1A73EB;
+        }
+    }
+
+    &__inner-bottom {
+        margin: 30px 0 50px;
+    }
+
+    &__sadtrue {
+        color: #DE5044;
+        margin-bottom: 35px;
+    }
+}

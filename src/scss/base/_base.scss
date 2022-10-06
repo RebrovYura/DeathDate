@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 18px;
+}
+
+body {
+    font-family: var(--font);
+}
+
+button {
+    width: 203px;
+    height: 73px;
+    border-radius: 3px;
+    border: none;
+    background-color: #1A73EB;
+    color: #fff;
+    font-size: 20px;
+    font-weight: var(--font-regular);
+    cursor: pointer;
+}
+
+.wrapper {
+    max-width: 532px;
+    margin: 50px auto 0;
+}
